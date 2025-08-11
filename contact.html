@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — BlueForge</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body class="bg">
+  <aside class="sidepanel">
+    <div class="brand small">
+      <div class="logo">BF</div>
+      <h1>BlueForge</h1>
+    </div>
+    <nav class="side-nav">
+      <a href="index.html">Home</a>
+      <a href="catalog.html">Catalog</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </aside>
+
+  <main class="main-area">
+    <header class="topbar">
+      <h2>Reach Out</h2>
+      <p class="muted">Questions, wholesale inquiries or custom orders — send a quick note.</p>
+    </header>
+
+    <section class="contact-panel">
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent — thank you!')">
+        <label>Name</label>
+        <input required placeholder="Full name" />
+        <label>Email</label>
+        <input type="email" required placeholder="you@domain.com" />
+        <label>Message</label>
+        <textarea required rows="5"></textarea>
+        <div class="actions">
+          <button class="primary">Send</button>
+          <a class="ghost" href="index.html">Back</a>
+        </div>
+      </form>
+
+      <aside class="contact-info">
+        <h4>Visit</h4>
+        <p>Byte Club BBPSPP</p>
+        <h4>Support</h4>
+        <p>aaravcharaya@blueforge</p>
+        <h4>Phone</h4>
+        <p>+91 9810182937</p>
+      </aside>
+    </section>
+
+    <footer class="sitefoot">
+      <small>We’ll respond within 48 hours</small>
+    </footer>
+  </main>
+</body>
+</html>
